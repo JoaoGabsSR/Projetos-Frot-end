@@ -1,0 +1,13 @@
+<h1>Estudos HTML e CSS</h1>
+<p>
+Estes são alguns projetos que fiz para praticar e desenvolver minhas habilidades com html e css, sendo que os projetos foram separados em dua maneiras:
+
+<ol>
+    <li>
+    Na pasta Tutorado estam projetos que fiz acompanhando alguns vídeos, no youtube para conhecer um pouco mais as tecnologias e alguns de seus recursos;
+    </li>
+    <li>
+    Na segunda estam os projetos que fiz sem nenhuma consulta usando apenas alguns conhecimentos que já possuo e adquiri com os vídeos e cursos
+    </li>
+</ol>
+</p>
