@@ -4,10 +4,10 @@ Estes são alguns projetos que fiz para praticar e desenvolver minhas habilidade
 
 <ol>
     <li>
-    Na pasta Tutorado estam projetos que fiz acompanhando alguns vídeos, no youtube para conhecer um pouco mais as tecnologias e alguns de seus recursos;
+    Na pasta Tutorado estão projetos que fiz acompanhando alguns vídeos, no youtube para conhecer um pouco mais as tecnologias e alguns de seus recursos;
     </li>
     <li>
-    Na segunda estam os projetos que fiz sem nenhuma consulta usando apenas alguns conhecimentos que já possuo e adquiri com os vídeos e cursos
+    Na segunda estão os projetos que fiz sem nenhuma consulta usando apenas alguns conhecimentos que já possuo e adquiri com os vídeos e cursos
     </li>
 </ol>
 </p>
