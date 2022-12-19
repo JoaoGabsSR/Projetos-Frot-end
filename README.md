@@ -1,4 +1,4 @@
-<h1>Estudos HTML e CSS</h1>
+<h1>Estudos HTML, CSS e Javascript</h1>
 <p>
 Estes são alguns projetos que fiz para praticar e desenvolver minhas habilidades com html e css, sendo que os projetos foram separados em dua maneiras:
 
