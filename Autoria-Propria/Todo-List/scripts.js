@@ -1,9 +1,9 @@
 const list = JSON.parse(localStorage.getItem('lista_todos')) || []
 const inputTodo = document.querySelector('#input')
-const btnAdd = document.querySelector('#input-button')
-const btnEdit = document.querySelector('#edit')
-const btnDelete = document.querySelector('#delete')
 const listTodo = document.querySelector('#list')
+// const btnAdd = document.querySelector('#input-button')
+// const btnEdit = document.querySelector('#edit')
+// const btnDelete = document.querySelector('#delete')
 
 // ADD TODO
 function addTodo() {
@@ -27,7 +27,7 @@ function renderTodo() {
         for (let i = 0; i < list.length; i++) {
             let position = list.indexOf(list[i])
 
-            listTodo.innerHTML += `<li>${list[i]} <button id="edit" onclick="editTodo(${position})"><span class='material-symbols-outlined' id='edit'>edit</span></button><button id="delete" onclick="deleteTodo(${position})"><span class='material-symbols-outlined' id='delete'>delete</span> </button></li>`
+            listTodo.innerHTML += `<li>${list[i]}<button id="edit" onclick="editTodo(${position})"><span class='material-symbols-outlined' id='edit'>edit</span></button><button id="delete" onclick="deleteTodo(${position})"><span class='material-symbols-outlined' id='delete'>delete</span></button></li>`
         }
     }    
 }
@@ -40,7 +40,6 @@ function save() {
 // DELETE TODO
 function deleteTodo(position) {
     // deletePopUp()
-
     list.splice(position, 1)
     
     save()
@@ -73,5 +72,5 @@ function editTodo(position) {
 //     var popUpWindow = window.open('edit-pop-up.html', 'editTodo', 'width=500px, height=350px')
 // }
 
-//  CALLING FUNCTIONS
+//  CALLING FUNCTION TO RENDER FIRST TIME THE TODO LIST
 renderTodo()
